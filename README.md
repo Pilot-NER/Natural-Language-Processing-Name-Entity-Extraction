@@ -15,3 +15,7 @@ Applicability of the Information Extraction Architecture
 2. We need to tokenize the sentence but the sentence is not a complete sentence – it doesn't have a grammatical structure.
 3. Similar to the concerns with step 2, the sentence does not have any grammatical structure.
 4. Very important in order to extract vendors' names and location.
+
+---
+
+### Approach 1: Named-Entity Recognition
