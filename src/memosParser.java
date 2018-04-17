@@ -34,12 +34,12 @@ public class memosParser {
 
         try {
             // choose 100 random memos
-            List<String> memosDupList = new ArrayList<>(memosList);
-            Collections.shuffle(memosDupList);
-            memosDupList = new ArrayList<>(memosDupList.subList(0, memosDupList.size()-1));
-            String s = String.join("|", memosDupList);
+//            List<String> memosDupList = new ArrayList<>(memosList);
+//            Collections.shuffle(memosDupList);
+//            memosDupList = new ArrayList<>(memosDupList.subList(0, memosDupList.size()-1));
+            String s = String.join("|", memosList);
 
-            BufferedWriter train_data = new BufferedWriter(new FileWriter("test.txt"));
+            BufferedWriter train_data = new BufferedWriter(new FileWriter("MemosText.txt"));
             train_data.write(s);
             train_data.close();
         }
