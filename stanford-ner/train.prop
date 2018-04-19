@@ -1,5 +1,5 @@
 #location of the training file
-trainFile = train5.tok
+trainFile = train9.tok
 #location where you would like to save (serialize to) your
 #classifier; adding .gz at the end automatically gzips the file,
 #making it faster and smaller

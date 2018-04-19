@@ -88,14 +88,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train1.txt")) {
+        try (PrintWriter out = new PrintWriter("train1.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test1.txt")) {
+        try (PrintWriter out = new PrintWriter("test1.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
@@ -115,14 +115,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train2.txt")) {
+        try (PrintWriter out = new PrintWriter("train2.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test2.txt")) {
+        try (PrintWriter out = new PrintWriter("test2.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
@@ -141,14 +141,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train3.txt")) {
+        try (PrintWriter out = new PrintWriter("train3.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test3.txt")) {
+        try (PrintWriter out = new PrintWriter("test3.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
@@ -168,14 +168,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train4.txt")) {
+        try (PrintWriter out = new PrintWriter("train4.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test4.txt")) {
+        try (PrintWriter out = new PrintWriter("test4.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
@@ -195,14 +195,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train5.txt")) {
+        try (PrintWriter out = new PrintWriter("train5.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test5.txt")) {
+        try (PrintWriter out = new PrintWriter("test5.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
@@ -222,14 +222,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train6.txt")) {
+        try (PrintWriter out = new PrintWriter("train6.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test6.txt")) {
+        try (PrintWriter out = new PrintWriter("test6.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
@@ -249,14 +249,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train7.txt")) {
+        try (PrintWriter out = new PrintWriter("train7.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test7.txt")) {
+        try (PrintWriter out = new PrintWriter("test7.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
@@ -276,14 +276,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train8.txt")) {
+        try (PrintWriter out = new PrintWriter("train8.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test8.txt")) {
+        try (PrintWriter out = new PrintWriter("test8.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
@@ -303,14 +303,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train9.txt")) {
+        try (PrintWriter out = new PrintWriter("train9.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test9.txt")) {
+        try (PrintWriter out = new PrintWriter("test9.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
@@ -330,14 +330,14 @@ public class memosParser {
         }
 //        System.out.println(text);
 
-        try (PrintWriter out = new PrintWriter("train10.txt")) {
+        try (PrintWriter out = new PrintWriter("train10.tok")) {
             out.println(trainText);
         }
         catch (FileNotFoundException e){
             e.printStackTrace();
         }
 
-        try (PrintWriter out = new PrintWriter("test10.txt")) {
+        try (PrintWriter out = new PrintWriter("test10.tsv")) {
             out.println(testText);
         }
         catch (FileNotFoundException e){
