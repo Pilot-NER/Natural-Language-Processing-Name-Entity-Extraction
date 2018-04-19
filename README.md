@@ -10,4 +10,4 @@ The F1-score for Stanford Named Entity Recognizer (NER) is 69.87%
 The F1-score for our CRF with custom features is 89.00%.
 
 Example:
-![Example]()
+![Example](https://github.com/Final-Project-Freshman/NLP-Approach/blob/master/result.png)
