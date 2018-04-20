@@ -5,39 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ced93415-a7c6-4359-ba44-8d3277702a87" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanford-ner/test.tok" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanford-ner/test.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanford-ner/train2.tok" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stanford-ner/train2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test6.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test7.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test8.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test9.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train10.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train4.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train5.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train6.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train7.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train8.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/train9.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/memosParser/memosParser.class" afterPath="$PROJECT_DIR$/out/production/memosParser/memosParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanford-ner/ner-model.ser.gz" afterPath="$PROJECT_DIR$/stanford-ner/ner-model.ser.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MemosText_testFile.tsv" afterPath="$PROJECT_DIR$/MemosText_testFile.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/memosParser.java" afterPath="$PROJECT_DIR$/src/memosParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanford-ner/notes.txt" afterPath="$PROJECT_DIR$/stanford-ner/notes.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanford-ner/train.prop" afterPath="$PROJECT_DIR$/stanford-ner/train.prop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanford-ner/train3.tok" afterPath="$PROJECT_DIR$/stanford-ner/train3.tok" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanford-ner/train4.tok" afterPath="$PROJECT_DIR$/stanford-ner/train4.tok" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stanford-ner/train5.tok" afterPath="$PROJECT_DIR$/stanford-ner/train5.tok" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/self_crf/try.py" afterPath="$PROJECT_DIR$/self_crf/try.py" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,8 +21,8 @@
       <file leaf-file-name="notes.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stanford-ner/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="156" column="10" lean-forward="true" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
+            <state relative-caret-position="60">
+              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -152,8 +121,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="720" />
-    <option name="height" value="809" />
+    <option name="width" value="1920" />
+    <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -662,14 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stanford-ner/train.prop">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sequence_tagging/build_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-388">
@@ -691,6 +652,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stanford-ner/train.prop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MemosText_testFile.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1517">
@@ -701,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stanford-ner/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="156" column="10" lean-forward="true" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
+        <state relative-caret-position="60">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>

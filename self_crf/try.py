@@ -108,8 +108,6 @@ class Bookkeeping:
 			'word.lower()': word.lower(),
 			'word[-3:]': word[-4:],
 			'word[:3]': word[:4],
-			'word.isupper()': word.isupper(),
-			'word.istitle()': word.istitle(),
 			'word.isdigit()': word.isdigit(),
 			'word.hasdigit()': any(char.isdigit() for char in word),
 			'word.haspunct()': any(char in string.punctuation for char in word),
@@ -119,8 +117,6 @@ class Bookkeeping:
 			word1 = sent[i-1][0]
 			features.update({
 				'-1:word.lower()': word1.lower(),
-				'-1:word.istitle()': word1.istitle(),
-				'-1:word.isupper()': word1.isupper(),
 				'-1:word[-3:]': word1[-4:],
 				'-1:word[:3]': word1[:4],
 				'-1:word.hasdigit()': any(char.isdigit() for char in word1),
@@ -133,8 +129,6 @@ class Bookkeeping:
 			word2 = sent[i-2][0]
 			features.update({
 				'-2:word.lower()': word2.lower(),
-				'-2:word.istitle()': word2.istitle(),
-				'-2:word.isupper()': word2.isupper(),
 				'-2:word[-3:]': word2[-4:],
 				'-2:word[:3]': word2[:4],
 				'-2:word.hasdigit()': any(char.isdigit() for char in word2),
@@ -146,8 +140,6 @@ class Bookkeeping:
 			word1 = sent[i+1][0]
 			features.update({
 				'+1:word.lower()': word1.lower(),
-				'+1:word.istitle()': word1.istitle(),
-				'+1:word.isupper()': word1.isupper(),
 				'+1:word[-3:]': word1[-4:],
 				'+1:word[:3]': word1[:4],
 				'+1:word.hasdigit()': any(char.isdigit() for char in word1),
@@ -160,8 +152,6 @@ class Bookkeeping:
 			word2 = sent[i+2][0]
 			features.update({
 				'+2:word.lower()': word2.lower(),
-				'+2:word.istitle()': word2.istitle(),
-				'+2:word.isupper()': word2.isupper(),
 				'+2:word[-3:]': word2[-4:],
 				'+2:word[:3]': word2[:4],
 				'+2:word.hasdigit()': any(char.isdigit() for char in word2),
@@ -193,4 +183,4 @@ class Bookkeeping:
 B = Bookkeeping()
 B.learn("train9.txt")
 B.test("test9.txt")
-B.predict_single_memo("LOS ANGELES AIRPORT LOS ANGELES AIRPORT LOS ANGELES CA Ref5531020AALA Crd3846 Dt11/25")
+B.predict_single_memo("BedBathAndBeyond.COM800-462-396 7601865105 800-462-3966")
