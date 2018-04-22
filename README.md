@@ -15,7 +15,7 @@ Stanford NER is one of the most widely used open-source NER programs which provi
 
 We built our own CRF model specifically for bank memos. We used the Python package “sklearn-crfsuite” package to customize the feature functions of the CRF model based on our observations of patterns in the sample dataset. The feature functions measure the following features:
 
-![Table of features]()
+![Table of features](https://github.com/Final-Project-Freshman/Natural-Language-Processing/blob/master/Features.png)
 
 The feature functions for a word measures the features of itself, the two words before it, and the two words after it. This is because we found that this increased the F1-score of our program.
 
@@ -23,7 +23,7 @@ The feature functions for a word measures the features of itself, the two words 
 
 ### Results
 
-![Result Figure]()
+![Result Figure](https://github.com/Final-Project-Freshman/Natural-Language-Processing/blob/master/Result%20NER.png)
 
 After training Stanford NER with different partitioning ratios of data, we found that as the sample size of training data increases, the F1-score of the Stanford NER model increases, as shown in the figure. F1-score is a measure of accuracy in statistical analysis of binary classification. It is the average of both the precision and the recall score.The precision score is the ratio of all accurate classifications divided by all our classifications while the recall score is the number of accurate classifications divided by the number of the all possible accurate classifications.
 
