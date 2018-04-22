@@ -19,8 +19,6 @@ We built our own CRF model specifically for bank memos. We used the Python packa
 
 The feature functions for a word measures the features of itself, the two words before it, and the two words after it. This is because we found that this increased the F1-score of our program.
 
-![Result of Custom CRF](https://github.com/Final-Project-Freshman/NLP-Approach/blob/master/result.png)
-
 ### Results
 
 ![Result Figure](https://github.com/Final-Project-Freshman/Natural-Language-Processing/blob/master/Result%20NER.png)
@@ -31,6 +29,10 @@ The F1-score increases with the size of training data because the variance of th
 
 After training our custom CRF NER model using the sample dataset, we found that for all partitioning ratios, the F1-scores of our NER model are higher than that for Stanford NER model. Surprisingly, even with a 20:80 partition, the F1-score for our NER model in labeling the remaining memos exceeds 80%. This suggests that there are notably salient patterns that are generalizable to all sample memos. Additionally, in the result figure, the gradient of the regression in partitioning ratio against F1-scores for our model is smaller than the Stanford model. This means that our custom NER model can learn the patterns of features with a smaller size of training data.
 
+### Conclusion
+We chose our custom CRF-NER model as the machine learning approach to extracting vendors' names and locations from transaction memos.
+
+![Result of Custom CRF](https://github.com/Final-Project-Freshman/NLP-Approach/blob/master/result.png)
 
 
 
